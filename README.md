@@ -1,34 +1,21 @@
-# Getting Started with Create React App
+## **Description**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+The project to test interaction with `TMDB` third-party service as a source of data. You can search, get full information of movie and create a list of favourite movies. Client writed on `React` library and used `NextUI` for UI component and `styled-components` for additional styling. Used `Redux` as state manager and `RTK` for working with actions and api service.
 
-In the project directory, you can run:
+## **Prerequisites**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- node >= 18.0
+- docker
+- You need to create an API key for the Movie Database. After put your API key to `.env` file with this follow name `REACT_APP_API_KEY=<your api key>`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **Run application**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Change your credential in the `.env` file. Also you can use default but it`s not secure.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Environmental variables
-
-You need to create an API key for the Movie Database. After put your API key to `.env` file with this follow name `REACT_APP_API_KEY=<your api key>`
+2. Now you can open `http://localhost:3000` to see the result.
