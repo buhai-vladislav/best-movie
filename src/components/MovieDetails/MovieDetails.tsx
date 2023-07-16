@@ -49,6 +49,10 @@ export const MovieDetails = () => {
         setIsChoosed(true)
       }
     }
+
+    return () => {
+      setIsChoosed(false)
+    }
   }, [data])
 
   if (isLoading) {
